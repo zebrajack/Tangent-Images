@@ -2,13 +2,19 @@
 HISTORY
 =======
 
-0.0.5 (2019-12-17)
+0.0.6 (2019-12-17)
+------------------
+* Included model for shape classification
+* README for semantic segmentation
+* Beginning of SIFT experiments
+
+0.0.5 (2019-12-16)
 ------------------
 * Results for ShapeNet
 * Add distorted MNIST experiment
 * Main README file
 
-0.0.4 (2019-12-17)
+0.0.4 (2019-12-16)
 ------------------
 * Updates to image ops utilities (and one tangent image utility)
 * Finished SIFT examples
