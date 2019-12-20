@@ -17,6 +17,7 @@ This repository is designed to be used with PyTorch. In its current form, it has
 
 #### Other dependencies
 
+* Eigen (for CGAL--the aptitude package version works)
 * CGAL 4.11+ (the aptitude package version works)
 * CUDA 10.1 (optional for PyTorch GPU support)
 
@@ -32,13 +33,20 @@ CGAL is a required dependency. You can [install the most recent version from sou
 sudo apt install libcgal-dev
 ```
 
+The CGAL dependency relies on Eigen, so you may also need to install:
+
+```
+sudo apt install libeigen3-dev
+```
+
 #### Installing tangent-images
 
  1. Make sure you have activated your Conda environment or are otherwise using the desired Python environment
  2. Navigate to `<top-level>/package`
  3. `python setup.py install`
 
-You should be able to test if the installation was successful by running the example scripts in [examples](./examples)
+
+You should be able to test if the installation was successful by running the example scripts in [examples](./examples).
 
 ## Experiments
 
@@ -50,4 +58,11 @@ All experiments are included in the [experiments](./experiments) folder. Each ex
 
 If you find this repository useful for your own work, please make sure to cite our paper:
 
-TBD.
+```
+@article{eder2019tangent,
+    title={Tangent Images for Mitigating Spherical Distortion},
+    author={Marc Eder and Mykhailo Shvets and John Lim and Jan-Michael Frahm},
+    eprint={arXiv:1912.09390},
+    year={2019}
+}
+```
