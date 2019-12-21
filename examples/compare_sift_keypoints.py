@@ -25,7 +25,7 @@ num_samples = compute_num_samples(base_order, sample_order)
 # Sampling resolutions
 sampling_resolution = get_sampling_resolution(base_order)
 
-# Corners of tangent planes in spherical coordinates (N x 4 x 3)
+# Corners of tangent planes in spherical coordinates (N x 4 x 2)
 corners = tangent_image_corners(
     icosphere, num_samples, num_samples, sampling_resolution / num_samples,
     sampling_resolution / num_samples, 'face').squeeze(0)
