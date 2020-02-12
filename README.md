@@ -1,6 +1,8 @@
 # Tangent Images for Mitigating Spherical Distortion
 ![Tangent Images](./images/figure_1.png)
 
+Paper link: [https://arxiv.org/abs/1912.09390](https://arxiv.org/abs/1912.09390)
+
 ## Dependencies
 
 This repository is designed to be used with PyTorch. In its current form, it has been tested with PyTorch 1.3.1.
