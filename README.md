@@ -1,7 +1,8 @@
 # Tangent Images for Mitigating Spherical Distortion
 ![Tangent Images](./images/figure_1.png)
 
-Paper link: [https://arxiv.org/abs/1912.09390](https://arxiv.org/abs/1912.09390)
+## Paper
+Marc Eder, Mykhailo Shvets, John Lim, and Jan-Michael Frahm. [Tangent Images for Mitigating Spherical Distortion](https://arxiv.org/abs/1912.09390). Accepted to CVPR 2020.
 
 ## Dependencies
 
@@ -58,7 +59,7 @@ All experiments are included in the [experiments](./experiments) folder. Each ex
 
 ## Attribution
 
-If you find this repository useful for your own work, please make sure to cite our paper:
+If you find this repository useful for your own work, please consider citing our paper:
 
 ```
 @article{eder2019tangent,
